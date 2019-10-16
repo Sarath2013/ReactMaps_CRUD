@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CrudView renders snapshot 1`] = `
+<div
+  className="contianer"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+      >
+        Add Map
+      </button>
+    </div>
+  </div>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6 col-sm-12 col-xs-12 loc-details"
+      key="0"
+    >
+      <LocationDetials
+        location={
+          Object {
+            "lat": 52.52,
+            "lng": 13.405,
+            "name": "Berlin",
+          }
+        }
+      />
+      <div
+        className="loc-actions"
+      >
+        <div
+          className="view-marker"
+        >
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            View Marker
+          </button>
+        </div>
+        <span>
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            Edit
+          </button>
+        </span>
+        <span>
+          or
+        </span>
+        <span>
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </span>
+      </div>
+    </div>
+    <div
+      className="col-md-6 col-sm-12 col-xs-12 loc-details"
+      key="1"
+    >
+      <LocationDetials
+        location={
+          Object {
+            "lat": 48.1351,
+            "lng": 11.582,
+            "name": "Munich",
+          }
+        }
+      />
+      <div
+        className="loc-actions"
+      >
+        <div
+          className="view-marker"
+        >
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            View Marker
+          </button>
+        </div>
+        <span>
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            Edit
+          </button>
+        </span>
+        <span>
+          or
+        </span>
+        <span>
+          <button
+            className="btn btn-default"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering MapCrud Snapshot - Unit Testing renders snapshot  - Unit Testing 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-5 col-sm-12 col-xs-12 map-view"
+    >
+      <ErrorBoundary>
+        <Wrapper
+          activeMarkerValues={
+            Object {
+              "lat": 52.520008,
+              "lng": 13.404954,
+            }
+          }
+          locations={Array []}
+          update={[Function]}
+        />
+      </ErrorBoundary>
+    </div>
+    <div
+      className="col-md-6 col-sm-12 col-xs-12 crud-view"
+    >
+      <CrudView
+        locations={Array []}
+        update={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering AddModal renders snapshot 1`] = `
+<div
+  aria-hidden="true"
+  className="modal show"
+  role="dialog"
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+  tabIndex="-1"
+>
+  <div
+    className="modal-dialog"
+    role="document"
+  >
+    <div
+      className="modal-content"
+    >
+      <div
+        className="modal-header"
+      >
+        <h3>
+          Add
+           Marker
+        </h3>
+        <button
+          aria-label="Close"
+          className="close"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        className="modal-body"
+      >
+        <form>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              name="searchInput"
+              onChange={[Function]}
+              placeholder="Type Place"
+              type="text"
+            />
+          </div>
+          <button
+            className="btn btn-primary geo-btn"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Get Geo Cordinates
+          </button>
+        </form>
+      </div>
+      <div
+        className="modal-footer"
+      >
+        <button
+          className="btn btn-secondary"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          Close
+        </button>
+        <button
+          className="btn btn-primary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rendering EditModal renders snapshot 1`] = `
+<div
+  aria-hidden="true"
+  className="modal show"
+  role="dialog"
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+  tabIndex="-1"
+>
+  <div
+    className="modal-dialog"
+    role="document"
+  >
+    <div
+      className="modal-content"
+    >
+      <div
+        className="modal-header"
+      >
+        <h3>
+          Edit
+           Marker
+        </h3>
+        <button
+          aria-label="Close"
+          className="close"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        className="modal-body"
+      >
+        <form>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              name="searchInput"
+              onChange={[Function]}
+              placeholder="Type Place"
+              type="text"
+              value="Berlin"
+            />
+          </div>
+          <button
+            className="btn btn-primary geo-btn"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Get Geo Cordinates
+          </button>
+        </form>
+        <LocationDetials
+          location={
+            Object {
+              "lat": 52.52,
+              "lng": 13.405,
+              "name": "Berlin",
+            }
+          }
+        />
+      </div>
+      <div
+        className="modal-footer"
+      >
+        <button
+          className="btn btn-secondary"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          Close
+        </button>
+        <button
+          className="btn btn-primary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Edit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

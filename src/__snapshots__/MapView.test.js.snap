@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering MapView renders snapshot 1`] = `<DefaultLoadingContainer />`;

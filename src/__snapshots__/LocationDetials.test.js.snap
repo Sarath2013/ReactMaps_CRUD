@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering LocaitonDetials renders snapshot 1`] = `
+<div>
+  <div
+    className="loc-title"
+  >
+    Berlin
+  </div>
+  <div
+    className="loc-name"
+  >
+    Berlin
+  </div>
+  <div
+    className="loc-lat"
+  >
+    latitude: 
+    52.52
+  </div>
+  <div
+    className="loc-lng"
+  >
+    longitude: 
+    13.405
+  </div>
+</div>
+`;
