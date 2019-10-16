@@ -26,13 +26,13 @@ Run the unit and integration testcases using this command.
 ## `Guideline Questions`
 
 * How do you handle configuration values? What if those values change?
-    Configuration values like google api key and mongodb connection strings have been seperated into .env file. It makes things easier to manage configuration values.
+    `Configuration values like google api key and mongodb connection strings have been seperated into .env file. It makes things easier to manage configuration values.`
 
 * What happens if we encounter an error with the third-party API integration? - Will it also break our application, or are they handled accordingly?
-    No, it won’t break the application and I have handled it. Added Error Boundary Component for google map component and handled error producing scenarios for geocoding API.
+    `No, it won’t break the application and I have handled it. Added Error Boundary Component for google map component and handled error producing scenarios for geocoding API.`
 
 * Now we will need to change the third-party geocoder API to another one. How can we change our current   solution so that we can make this change as seamless as possible? Or how will we change (or refactor)   our solution so that any future changes with the third-party integration is only done in isolation?
-     It can be done by creating a separate component.
+     `It can be done by creating a separate component.`
 
 
 `Below I have attached screenshots of the flows and testing execution`
