@@ -19,7 +19,7 @@ Run the unit and integration testcases using this command.
 * I have created a react project using `create-react-app` and added created required components to display google maps and view, add, delete, edit markers.
 * Created node `Express server` to handle backend CRUD apis and used `MongoDB` with `Mongoose` schema to save the data.
 * I have impleneted adding marker functionality using the `Geocoding` api which converts addresses into coordinates and used `Axios` third party HTTP library to request data from geocoding api.
-* Included required `Unit` and `Integratio`n` testcases using `Jest` with `Enzyme`.
+* Included required `Unit` and `Integration` testcases using `Jest` with `Enzyme`.
 * I have used `Bootstrap` classses to enhance the design of the app.
 * An invalid or non-existent input address has been handled.
 
